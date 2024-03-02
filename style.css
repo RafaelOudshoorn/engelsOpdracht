@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #202020;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divv{
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_loginDiv{
+    width: 500px;
+    height: 300px;
+    border: black 5px solid;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_loginDiv{
+    width: 80%;
+    height: 80%;
+}
+.input{
+    width: 100%;
+    text-align: center;
+}
+.login_knop{
+    width: 100%;
+}
+.textLightColor{
+    color: rgb(170, 170, 170);
+}
+.textDarkColor{
+    color: rgb(80, 80, 80);
+}
+/* ################################################ */
+/* #                                              # */
+/* #                  header.css                  # */
+/* #                                              # */
+/* ################################################ */
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+}
+
+.inner_header{
+    width: 55vw;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container a{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.logo_container a h1{
+    font-size: 32px;
+    font-weight: 200;
+    color: white;
+}
+.logo_container a h1 span{
+    font-weight: 800;
+    color: rgb(170, 170, 170);
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+    overflow: hidden;
+}
+.navigation a{
+    height: 100%;
+    display:  table;
+    float: left;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.navigation a:last-child{
+    padding-right: 0;
+}
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+}
+/* ################################################ */
+/* #                                              # */
+/* #             adminloggedin.css                # */
+/* #                                              # */
+/* ################################################ */
+.adminLoggedinContainer{
+    width: 100%;
+    display: block;
+    background-color: #202020;
+}
+.inner_adminLoggedinContainer{
+    width: 56.8vw;
+    height: fill;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 20px 20px 35px;
+    border-radius: 10px;
+    background-color: white;
+}
+.inner_adminLoggedinContainer a {
+    text-decoration: none;
+}
+/* ################################################ */
+/* #                                              # */
+/* #                user_list.css                 # */
+/* #                                              # */
+/* ################################################ */
+.adminUserlistContainer{
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    display: block;
+    background-color: #202020;
+}
+.inner_adminUserlistContainer{
+    width: 20vw;
+    height: fill;
+    display: block;
+    padding: 20px 20px 20px 35px;
+    border-radius: 10px;
+    background-color: white;
+}
+.inner_adminUserlistContainer a{
+    text-decoration: none;
+}
+/* ################################################ */
+/* #                                              # */
+/* #                AddQuestion.css                  # */
+/* #                                              # */
+/* ################################################ */
+.adminAddQuestionContainer{
+    width: 100%;
+    display: block;
+    background-color: #202020;
+}
+.inner_adminAddQuestionContainer{
+    width: 56.8vw;
+    height: fill;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 20px 20px 35px;
+    border-radius: 10px;
+    background-color: white;
+}
+.inner_adminAddQuestionContainer a {
+    text-decoration: none;
+}
+.form_questions{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input_questions{
+    width: 100%;
+}
+/* ################################################ */
+/* #                                              # */
+/* #                infoLoaded.css                # */
+/* #                                              # */
+/* ################################################ */
+.infoLoadedContainer{
+    width: 100%;
+    display: block;
+    background-color: #202020;
+}
+.inner_infoLoadedContainer{
+    width: 56.8vw;
+    height: fill;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 20px 20px 35px;
+    border-radius: 10px;
+    background-color: white;
+}
+.inner_infoLoadedContainer a {
+    text-decoration: none;
+}
+.inner_infoLoadedContainer p {
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    font-weight: bold;
+}
+.inner_infoLoadedContainer p  span{
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    font-size: 16px;
+}
+/* ################################################ */
+/* #                                              # */
+/* #                loggedin.css                  # */
+/* #                                              # */
+/* ################################################ */
+.LoggedinContainer{
+    width: 100%;
+    display: block;
+    background-color: #202020;
+}
+.inner_LoggedinContainer{
+    width: 56.8vw;
+    height: inherit;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 20px 20px 35px;
+    border-radius: 10px;
+    background-color: white;
+}
+.inner_LoggedinContainer a {
+    text-decoration: none;
+}
+.inner_LoggedinContainer p {
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    font-weight: bold;
+}
+.inner_LoggedinContainer p  span{
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    font-size: 16px;
+}
+/* ################################################ */
+/* #                                              # */
+/* #                  test.css                    # */
+/* #                                              # */
+/* ################################################ */
+.testExample_main{
+    margin-top: 20px;
+    width: 200px;
+    height: 250;
+}
+.testExample :hover{
+    color: rgb(80, 80, 80);
+}
+.testExample{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testExample_picture{
+    width: 200px;
+    height: 200px;
+    border: #202020 2px solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testExample_picture img{
+    width: 170px;
+    border-radius: 15px;
+
+    -webkit-user-drag: none; 
+    -khtml-user-drag: none; 
+    -moz-user-drag: none; 
+    -o-user-drag: none; 
+}
+.testExample_text{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: #202020 2px solid;
+    border-top: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    color:rgb(170, 170, 170);
+    background-color:#202020;
+}
+.testExample_text a{
+    color:rgb(170, 170, 170);
+    text-decoration: none;
+}
+#btn_div{
+    margin-right: 16px;
+    margin-top: 14px;
+}
+#previous_btn{
+    float: left;
+    background-color: #202020;
+    color: white;
+}
+#next_btn{
+    float: right;
+    background-color: #202020;
+    color: white;
+}
